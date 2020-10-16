@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Sansita+Swashed:wght@300;600&display=swap');
+
+/* 
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+ */
+
+:root {
+    scroll-behavior: smooth;
+    --main-color:rgb(243, 228, 24);
+    --background-color:rgb(255, 244, 193);
+    background-color:var(--background-color);
+}
+
+body {
+    max-width: 2000px;
+    min-width: 320px;
+    margin:auto;
+    background-color: var(--background-color);
+}
+
+.mini-button {
+    width:40px;
+}
+
+.btn-menu {
+    overflow: auto;
+    margin: 40px 0px;
+    /* justify-items: stretch; */
+    display: flex;
+    gap: 20px;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-around;
+}
+
+.btn-menu a {
+    text-decoration: none;
+}
+
+.menu-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--main-color);
+    height: 100px;
+    width: 300px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.important-text {
+    text-shadow: black 2px 3px 4px;
+}
