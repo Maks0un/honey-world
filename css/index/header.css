@@ -1,7 +1,7 @@
 h1.logo {
     font-family: 'Sansita Swashed', cursive;
     text-align: center;
-    font-size: 6.5rem;
+    font-size: 9rem;
     color:var(--main-color);
     text-shadow: black 2px 3px 10px;
 }
@@ -9,14 +9,14 @@ h1.logo {
 
 .logo-img {
     background-image: url(/img/home-photo.png);
-    min-height: 800px;
-    background-position: center;
+    min-height: 730px;
+    /* background-position: center; */
     background-size: cover;
     display: flex;
     align-items: center;
+    overflow: visible;
     justify-content: center;
 }
-
 
 .menu {
     font-family: 'Sansita Swashed', cursive;
@@ -27,3 +27,4 @@ h1.logo {
     margin-top: 30px;
     text-shadow: black 2px 3px 4px;
 }
+

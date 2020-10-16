@@ -9,13 +9,13 @@ font-family: 'Sansita Swashed', cursive;
     scroll-behavior: smooth;
     --main-color:rgb(243, 228, 24);
     --background-color:rgb(255, 244, 193);
-    background-color:var(--background-color);
+    background-image: url(/img/menu-vector-honey-background.jpg);
 }
 
 body {
     max-width: 2000px;
     min-width: 320px;
-    margin:auto;
+    margin:0;
     background-color: var(--background-color);
 }
 
@@ -44,7 +44,7 @@ body {
     justify-content: center;
     background-color:var(--main-color);
     height: 100px;
-    width: 300px;
+    width: 320px;
     border-radius: 4px;
     text-decoration: none;
     color: rgb(0, 0, 0);
